@@ -89,7 +89,7 @@ Clone the repository from GitHub to your local machine:
 ```bash
 git clone https://github.com/AliHusseiin/PlanRadar-Integration-automation-assessment.git
 cd PlanRadar-Integration-automation-assessment
-
+```
 
 ## Configration
 
@@ -109,4 +109,4 @@ Navigate to Settings → Account → Webhooks in your PlanRadar account.
 Set up a webhook to trigger the automation script whenever a project is created.
 
 **the application webhook**: http://..../webhook/v1/project-created
-```
+
