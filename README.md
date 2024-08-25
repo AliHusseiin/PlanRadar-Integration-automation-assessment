@@ -29,3 +29,22 @@ Clone the repository from GitHub to your local development environment:
 git clone https://github.com/AliHusseiin/PlanRadar-Integration-automation-assessment.git
 cd PlanRadar-Integration-automation-assessment
 ```
+
+## Configration
+
+- **EDIT: application.properties** : planradar.api.token= PUT the access token, planradar.api.customer_id= put the customer_id
+
+## Build the Project
+
+- **Ensure Maven is installed, then build the project using**: mvn clean install
+
+## Run the Application
+
+- **Start the Spring Boot application with**: mvn spring-boot:run
+
+## Webhooks
+
+Navigate to Settings → Account → Webhooks in your PlanRadar account.
+Set up a webhook to trigger the automation script whenever a project is created.
+
+**the application webhook**: http://..../webhook/v1/project-created
