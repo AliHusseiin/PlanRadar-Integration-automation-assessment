@@ -1,7 +1,5 @@
 # PlanRadar Integration Automation
 
-# PlanRadar Integration Automation
-
 ## Overview
 
 This Java Spring Boot application integrates with the PlanRadar API to automate tasks related to project management. The application performs the following actions automatically when a new project is created:
