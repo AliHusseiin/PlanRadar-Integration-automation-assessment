@@ -25,25 +25,8 @@ public class WebhookController {
         }catch (Exception ex)
         {
             ex.printStackTrace();
+            return ResponseEntity.internalServerError().build();
         }
-        return null;
+
     }
-
-//    @GetMapping("/projects")
-//    public Mono<?> getProjects() {
-//        return planRadarService.getFirstProjectId();
-//    }
-//
-//
-//
-//    @PostMapping("/createform")
-//    public Mono<?> createform() {
-//        return planRadarService.createForm();
-//    }
-//
-//    @PostMapping("/adformtoproject")
-//    public Mono<?> addForm() {
-//        return planRadarService.addFormToProject("jwgxeo", );
-//    }
-
 }
