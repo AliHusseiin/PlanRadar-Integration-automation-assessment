@@ -41,7 +41,7 @@ This service contains methods for making API requests to PlanRadar. It performs 
 
 - **`getFirstProjectId()`**
 
-  - **Description**: Retrieves the ID of the first project from PlanRadar. "FIRST PROJECT ID IN THE RETRIEVED LIST"  sort query param = -id to get the list of project Ids in DEC Order
+  - **Description**: Retrieves the ID of the first project from PlanRadar "NEWELY CREATED PROJECT". "FIRST PROJECT ID IN THE RETRIEVED LIST"  sort query param = -id to get the list of project Ids in DEC Order
   - **Returns**: `Mono<String>` - The ID of the first project.
 
 - **`createForm()`**
