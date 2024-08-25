@@ -93,7 +93,9 @@ cd PlanRadar-Integration-automation-assessment
 
 ## Configration
 
-- **EDIT: application.properties** : planradar.api.token= PUT the access token, planradar.api.customer_id= put the customer_id
+- **EDIT: application.properties** :
+-  planradar.api.token= PUT the access token
+-  planradar.api.customer_id= put the customer_id
 
 ## Build the Project
 
